@@ -1,15 +1,3 @@
-"""
-Pyramidal Lucas-Kanade dense optical flow + frame interpolation
-
-Usage:
-    python lk_frame_interpolate.py frame1.jpg frame2.jpg out_interpolated.jpg
-
-Notes:
-- Works reasonably for small-to-moderate motion. Use more pyramid levels for larger motion.
-- Parameters can be tuned for quality vs speed.
-"""
-
-
 from PIL import Image
 import numpy as np
 
